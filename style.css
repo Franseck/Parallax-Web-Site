@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.image1 {
+  background-image: url(drit.jpg);
+}
+.image2 {
+  background-image: url(picit.jpg);
+}
+.image3 {
+  background-image: url(focvus.jpg);
+}
+.image4 {
+  background-image: url(liveit.jpg);
+}
+.image5 {
+  background-image: url(drit.jpg);
+}
+
+.parallax {
+  height: 100vh;
+  width: 100%;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.middle {
+  letter-spacing: 1.5rem;
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  color: aliceblue;
+}
+
+.text {
+  padding: 5rem;
+  background-color: black;
+  width: 100%;
+  color: rgb(168, 168, 168);
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer {
+  padding: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  color: coral;
+  background-color: rgb(16, 80, 111);
+}
